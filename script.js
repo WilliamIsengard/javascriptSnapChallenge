@@ -1,8 +1,3 @@
-var num1 = num1;
-var num2 = num2;
-num2 * num1;
-}
-
 window.onload = function () {
 	initSnapChallenge();
 };
@@ -13,7 +8,7 @@ function initSnapChallenge() {
 	function initSnapChallenge() {
 		let form = document.getElementById("string-form");
 
-	form.addEventListener("submit", (event) => {
+		form.addEventListener("submit", (event) => {
 		handleItemForm(event, form);
 	});
 }
