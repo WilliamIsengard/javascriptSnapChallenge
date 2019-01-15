@@ -21,37 +21,28 @@
 						<button type="submit">Compute</button>
 					</form>
 				</div>
+		<div class="math-container">
+			<ul id="math-argument">
+			</ul>
+		</div>
 			<h2>String Arguments</h2>
-				<div class="math">
-					<form id="item-form">
+				<div class="string">
+					<form id="string-form">
 						<div>
-							<label for="item">item</label>
-							<input type="int" id="item-name">
+							<label for="item">Word 1</label>
+							<input type="int" id="word1">
 						</div>
-						<div><label for="amount">amount</label>
-							<input type="number" id="item-amount">
+						<div><label for="amount">Word 2</label>
+							<input type="int" id="word2">
 						</div>
-						<button type="submit">Add Item</button>
+						<button type="submit">Submit</button>
 					</form>
 				</div>
-		<div class="shopping-list-container">
-				<ul id="shopping-list">
+		<div class="string-argument-container">
+				<ul id="string-argument">
 				</ul>
 		</div>
 	</body>
 </html>
 
 
-function addNumbers(x, y) {
-let answer = x + y;
-console.log(answer);
-return answer;
-}
-addNumbers(5, 4);
-
-function addStrings(word1, word2) {
-let sentence = word1 + "." + word2;
-console.log(sentence);
-return sentence;
-}
-addStrings("Sour", "Skittles");
