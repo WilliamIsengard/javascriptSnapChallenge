@@ -7,18 +7,18 @@
 	</head>
 	<body>
 		<h1>Javascript Snap Challenge</h1>
-			<h2>Math Operation</h2>
+			<h2>Math Operation- X * Y</h2>
 				<div class="math">
-					<form id="item-form">
+					<form id="math-form">
 						<div>
-							<label for="item">item</label>
-							<input type="int" id="item-name">
+							<label for="int">X</label>
+							<input type="number" id="num1">
 						</div>
 						<div>
-							<label for="amount">amount</label>
-							<input type="number" id="item-amount">
+							<label for="int">Y</label>
+							<input type="number" id="num2">
 						</div>
-						<button type="submit">Add Item</button>
+						<button type="submit">Compute</button>
 					</form>
 				</div>
 			<h2>String Arguments</h2>
@@ -40,3 +40,18 @@
 		</div>
 	</body>
 </html>
+
+
+function addNumbers(x, y) {
+let answer = x + y;
+console.log(answer);
+return answer;
+}
+addNumbers(5, 4);
+
+function addStrings(word1, word2) {
+let sentence = word1 + "." + word2;
+console.log(sentence);
+return sentence;
+}
+addStrings("Sour", "Skittles");
